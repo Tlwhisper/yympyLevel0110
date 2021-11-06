@@ -1,26 +1,26 @@
 item = [1,2,3,4,['xingxing','shuzu'],'tianshi',"stringing"]
-print item
+print (item)
 
-#append()
+#append() 在列表中 添加一个元素 一次只能添加一个
 item.append('linghucong')
-print item
+print (item)
 
-#extend
+#extend 使用一个列表添加到另外一个列表中，参数是“一个” 列表
 item.extend(['xiaoxiaoniao','tianshidechibang'])
 print(item)
 
-# insert
-item.insert(1,'yangyanmeng_i')
-print item
+# insert  可以指定位置添加，两个参数
+item.insert(0,'yangyanmeng_i')
+print(item)
 
 
 # remove() 
 item.remove(2)
-print item
+print(item)
 
 #del
 del item[3]
-print item
+print(item)
 
 
 # 3.pop
@@ -37,7 +37,7 @@ itme5 = item[:]
 
 dir(list)
 flag = 'xiaojiayu' in item
-print flag
+print (flag)
 
 # count
 item.count('xiaojiayu')
