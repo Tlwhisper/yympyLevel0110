@@ -37,3 +37,12 @@ while True:
 input输入的变量存起来
 条件分支，elif
 断言：assert，为真接着执行
+
+010_list.py
+列表的
+列表的插入，expand(),extand(),insert()
+列表的删除：pop(),带参pop()
+列表的拷贝：[:]
+排序，拷贝
+
+
