@@ -82,3 +82,29 @@ input输入的变量存起来
 # import sys
 # sys.setrecursionlimit(100)
 
+
+026_dict.py
+# 字典，dict,使用花括号 {}
+# 1 bif内置函数
+# 2 成员资格运算符： in not in 
+# 3 clear() 清空函数
+# 4 copy浅拷贝
+# 5 pop(),poptiem()
+# 6 update()使用一个字典去更新另外一个字典
+
+
+027_set.py
+集合操作
+
+
+030_handle_file.py 
+030.1_handle_file.py 
+把3段对话，写入6个文件中
+
+
+
+
+
+
+
+
