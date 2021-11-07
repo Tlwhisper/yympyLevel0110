@@ -72,3 +72,13 @@ input输入的变量存起来
 # 8 闭包结构，内部函数也不能修改外层函数的值
 #   可以使用关键字：nonlocal
 
+
+021_lambda.py
+# lambda表达式
+# 过滤器filter
+# 2 map 映射，传入一个映射关系，和一个数（组），把这个数，根据前边的映射关系搞一
+个新的数（组）
+# 3 python3设置递归层数
+# import sys
+# sys.setrecursionlimit(100)
+
