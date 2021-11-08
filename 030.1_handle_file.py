@@ -1,14 +1,14 @@
 # 实现把./record.txt这个文件按照===分割成不同的对话，
 #把双方各自说的话，写入各自的文件，并写入不同的文件
 
-def save(boy, girl, count):  # 把分割之后的 一段对话 保存到两个文件
+def save(boy, girl, count):  # 传入参数boy,girl是列表，要写入文件的内容。把分割之后的 一段对话 保存到两个文件
     file_name_boy = 'boy_' + str(count) + '.txt'
     file_name_girl = 'girl_' + str(count) + '.txt'
 
-    boy_file = open(file_name_boy,'w')
-    girl_file = open(file_name_girl,'w')
+    boy_file = open(file_name_boy,'w')  # 文件对象
+    girl_file = open(file_name_girl,'w')  # 文件对象
 
-    boy_file.writelines(boy)
+    boy_file.writelines(boy)  # 往这个文件对象写东西
     girl_file.writelines(girl)
 
     boy_file.close()
