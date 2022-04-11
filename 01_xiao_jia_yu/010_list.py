@@ -76,8 +76,8 @@ item.reverse()
 
 # sort()
 item66 = [ 3,4,6,7,8,99,80,12,43,32]
-item66.sort()
+item66.sort()  # 从小到大排序
 print(item66)
 
-item66.sort(reverse=True) # 从大到小排序，然后再逆置
+item66.sort(reverse=True) # 逆置成从大到小
 print(item66)
