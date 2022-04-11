@@ -1,7 +1,7 @@
 # 字符串相关
 
 str1 = 'AWFWfewfweafefFEG'
-str2 = str1.casefold()
+str2 = str1.casefold()  # 变成小写
 print(str1)
 print(str2)
 
